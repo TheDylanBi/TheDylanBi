@@ -1,10 +1,9 @@
-- 👋 Hi, I’m @TheDylanBi
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-TheDylanBi/TheDylanBi is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Smart-Cam:传输图像到服务器或者APP
+目前已经根据一些开源项目实现基本功能
+现有的问题如下：
+1.传输帧率太低，画面效果较差，受限于此，还不能实现一些如人脸检测、入侵检测的功能
+针对这一问题，后续考虑更换嵌入式设备来保证传输质量和帧率
+2.考虑到多路摄像头数据的接入，现有的传输模式还不能满足高宽带的需求
+针对这一问题，后续考虑使用RTSP推流实现多路数据的输入
+3.画面传输现在有明显的延时
+目前还没有想到如何解决这一问题
